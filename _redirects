@@ -3,7 +3,10 @@
 # Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
 /ac-installation/*  /ac-installation/  301
 /ac-repair/*  /ac-repair/  301
-/air-conditioning-repair/*  /air-conditioning-repair/  301
 /emergency-ac-repair/*  /emergency-ac-repair/  301
 /furnace-repair/*  /furnace-repair/  301
 /hvac-tune-up/*  /hvac-tune-up/  301
+
+# Sep 24 2026 - duplicate stub retired
+/air-conditioning-repair/*  /ac-repair/  301
+/air-conditioning-repair/  /ac-repair/  301
