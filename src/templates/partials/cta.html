@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Talk to a local heating and air company now') }}</h2>
+      <p>{{ page.cta_text | default('Call the free line any hour. Say whether it is cooling or heating, where you are and what the system is doing, and you are put through to an independent, locally owned HVAC company that diagnoses the problem and quotes its own price.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Answered 24/7</strong>An automated assistant picks up day or night, weekends and holidays.</li>
+      <li><strong>Free to call</strong>You never pay the line. Any price comes from the HVAC company.</li>
+      <li><strong>Check the license</strong>Before work starts, ask for the company's TDLR license number and look it up.</li>
+      <li><strong>You stay in charge</strong>The company diagnoses and quotes first. You decide whether to go ahead.</li>
+    </ul>
+  </div>
+</section>

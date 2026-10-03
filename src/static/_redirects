@@ -1,4 +1,4 @@
-# redirects
+# Dallas Air & Heating redirects (dallasairandheating.com)
 
 # Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
 /ac-installation/*  /ac-installation/  301
@@ -34,3 +34,9 @@
 /blog/emergency-ac-repair-what-to-do-while-you-wait-1786106719726  /emergency-ac-repair/  301
 /blog/*  /  301
 /blog  /  301
+
+# Oct 3 2026 - Playbook 2.0 rebuild: the site is phone only, so the form thank-you pages are retired.
+/contact/thanks/  /contact/  301
+/contact/thanks  /contact/  301
+/free-ac-guide/thanks/  /free-ac-guide/  301
+/free-ac-guide/thanks  /free-ac-guide/  301

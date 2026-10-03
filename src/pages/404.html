@@ -1,0 +1,23 @@
+---
+type: error
+title: "Page Not Found | Dallas Air & Heating"
+description: "That page could not be found on dallasairandheating.com. Call the free Dallas AC and heating line at (469) 649-7066 or use the links below."
+h1: "This Page Could Not Be Found"
+noindex: true
+lead: "The address may have changed or been typed wrong. The phone line itself is still answered 24/7."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <p>If your air conditioning or heat is out right now, call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. Otherwise, one of these pages is probably what you were looking for.</p>
+  <ul class="checks">
+    <li><a href="/">Home</a></li>
+    <li><a href="/ac-repair/">AC repair</a> and <a href="/emergency-ac-repair/">emergency AC repair</a></li>
+    <li><a href="/furnace-repair/">Furnace and heating repair</a></li>
+    <li><a href="/ac-installation/">AC installation and replacement</a></li>
+    <li><a href="/service-areas/">Cities across Dallas-Fort Worth</a></li>
+    <li><a href="/how-it-works/">How the free line works</a></li>
+  </ul>
+  <p><a class="btn btn--orange" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+</section>
+{% endblock %}

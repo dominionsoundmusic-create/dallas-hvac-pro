@@ -1,0 +1,293 @@
+{
+ "business": {
+  "name": "Dallas Air & Heating",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "Dallas Air & Heating is a d/b/a of Dominion Digital Group.",
+  "category": "Air conditioning and heating referral line for Dallas-Fort Worth",
+  "origin": "https://dallasairandheating.com",
+  "phone_display": "(469) 649-7066",
+  "phone_tel": "+14696497066",
+  "email": "",
+  "address_public": false,
+  "founded": "2026",
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 244,
+  "logo_height": 64,
+  "theme_color": "#0c1f2e",
+  "description": "A free phone line for AC repair, heating and HVAC service in Dallas and the Dallas-Fort Worth area. An automated assistant answers 24/7 and transfers callers to an independent, locally owned heating and air conditioning company.",
+  "short_disclosure": "Dallas Air & Heating is a free phone line, not an HVAC company. It answers your call and connects you with an independent local heating and air conditioning company, which inspects, quotes and does the work, and which you pay directly. The line holds no HVAC license and does not repair, install or schedule anything itself.",
+  "referral_disclosure": "Those companies may pay Dallas Air & Heating a referral fee. You never pay the line.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "license_lookup_url": "https://www.tdlr.texas.gov/LicenseSearch/",
+  "guide_pdf": "/free-ac-guide/files/refrigerant-changeover-maurice-johnson.pdf"
+ },
+ "cta": {
+  "primary_label": "Call (469) 649-7066",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "",
+  "gtm": ""
+ },
+ "social": {
+  "facebook": "",
+  "instagram": "",
+  "google_business": "",
+  "tiktok": ""
+ },
+ "nav": [
+  {
+   "label": "Services",
+   "menu": "services",
+   "href": "/services/"
+  },
+  {
+   "label": "Service Areas",
+   "href": "/service-areas/",
+   "menu": "areas"
+  },
+  {
+   "label": "Guides",
+   "menu": "guides"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  }
+ ],
+ "footer_links": [
+  {
+   "label": "All Services",
+   "href": "/services/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy.html"
+  },
+  {
+   "label": "Terms of Use",
+   "href": "/terms.html"
+  }
+ ],
+ "services": [
+  {
+   "slug": "ac-repair",
+   "name": "AC Repair",
+   "short": "AC Repair",
+   "summary": "Warm air from the vents, a unit that hums but will not start, ice on the lines or water in the ceiling. What a proper diagnosis covers in Dallas heat and what to ask before you approve a repair.",
+   "card_image": "hvac-01-card.jpg",
+   "card_alt": "Technician reading a gauge manifold connected to an outdoor AC unit"
+  },
+  {
+   "slug": "emergency-ac-repair",
+   "name": "Emergency AC Repair (24/7)",
+   "short": "Emergency AC Repair",
+   "summary": "No cooling at night, on a weekend or in a heat wave. What to do while you wait, who is most at risk, and how after-hours calls are usually priced.",
+   "card_image": "hvac-06-card.jpg",
+   "card_alt": "Technician walking to a service van in a driveway at dusk"
+  },
+  {
+   "slug": "ac-installation",
+   "name": "AC Installation and Replacement",
+   "short": "AC Installation",
+   "summary": "When replacing beats repairing, why a load calculation matters more than the brand, and what a complete installation quote should list.",
+   "card_image": "dallas-install-hero.jpg",
+   "card_alt": "Two installers setting a new outdoor AC condenser beside a home"
+  },
+  {
+   "slug": "furnace-repair",
+   "name": "Furnace and Heating Repair",
+   "short": "Furnace Repair",
+   "summary": "No heat on a cold North Texas morning, a furnace that short cycles or a heat pump stuck in defrost. Gas safety first, then what a technician checks.",
+   "card_image": "dallas-services-furnace.jpg",
+   "card_alt": "Gas furnace with its front panel removed in a utility closet"
+  },
+  {
+   "slug": "hvac-tune-up",
+   "name": "HVAC Tune-Up and Maintenance",
+   "short": "HVAC Tune-Up",
+   "summary": "What a real spring or fall tune-up includes, what it does not, and the simple filter and drain habits that keep a system out of trouble.",
+   "card_image": "hvac-02-card.jpg",
+   "card_alt": "Two technicians servicing an outdoor AC unit beside a house"
+  },
+  {
+   "slug": "commercial-hvac",
+   "name": "Commercial HVAC",
+   "short": "Commercial HVAC",
+   "summary": "Rooftop units, offices, shops and restaurants. How commercial service differs from residential and what to ask a commercial HVAC contractor.",
+   "card_image": "hvac-04-card.jpg",
+   "card_alt": "Technician servicing large rooftop HVAC units with a city skyline behind"
+  }
+ ],
+ "guides": [
+  {
+   "slug": "hvac-company",
+   "name": "How to Choose an HVAC Company in Dallas",
+   "short": "Choosing an HVAC Company",
+   "summary": "Check the TDLR license, compare written quotes the right way and spot the red flags before you let anyone start work."
+  },
+  {
+   "slug": "free-ac-guide",
+   "name": "Free AC Refrigerant Guide (PDF)",
+   "short": "Free Refrigerant Guide",
+   "summary": "The R-410A phase out and R-454B explained for homeowners. A free PDF book by Maurice Johnson, one click, no form."
+  }
+ ],
+ "areas": [
+  {
+   "slug": "mckinney-ac-repair",
+   "name": "McKinney",
+   "city": "McKinney",
+   "county": "Collin",
+   "keyword": "ac repair mckinney tx (1,000/mo, SD 13)",
+   "summary": "McKinney in Collin County."
+  },
+  {
+   "slug": "frisco-ac-repair",
+   "name": "Frisco",
+   "city": "Frisco",
+   "county": "Collin and Denton",
+   "keyword": "ac repair frisco tx (1,300/mo, SD 26)",
+   "summary": "Frisco in Collin and Denton County."
+  },
+  {
+   "slug": "plano-ac-repair",
+   "name": "Plano",
+   "city": "Plano",
+   "county": "Collin and Denton",
+   "keyword": "ac repair plano tx (1,000/mo, SD 32)",
+   "summary": "Plano in Collin and Denton County."
+  },
+  {
+   "slug": "allen-ac-repair",
+   "name": "Allen",
+   "city": "Allen",
+   "county": "Collin",
+   "keyword": "ac repair allen tx (880/mo, SD 18)",
+   "summary": "Allen in Collin County."
+  },
+  {
+   "slug": "richardson-ac-repair",
+   "name": "Richardson",
+   "city": "Richardson",
+   "county": "Dallas and Collin",
+   "keyword": "ac repair richardson tx (880/mo, SD 16)",
+   "summary": "Richardson in Dallas and Collin County."
+  },
+  {
+   "slug": "garland-ac-repair",
+   "name": "Garland",
+   "city": "Garland",
+   "county": "Dallas",
+   "keyword": "ac repair garland tx (720/mo, SD 26)",
+   "summary": "Garland in Dallas County."
+  },
+  {
+   "slug": "mesquite-ac-repair",
+   "name": "Mesquite",
+   "city": "Mesquite",
+   "county": "Dallas",
+   "keyword": "ac repair mesquite tx (720/mo, SD 15)",
+   "summary": "Mesquite in Dallas County."
+  },
+  {
+   "slug": "irving-ac-repair",
+   "name": "Irving",
+   "city": "Irving",
+   "county": "Dallas",
+   "keyword": "ac repair irving tx (170/mo, SD 15)",
+   "summary": "Irving in Dallas County."
+  },
+  {
+   "slug": "carrollton-ac-repair",
+   "name": "Carrollton",
+   "city": "Carrollton",
+   "county": "Dallas, Denton and Collin",
+   "keyword": "ac repair carrollton tx (480/mo, SD 26)",
+   "summary": "Carrollton in Dallas, Denton and Collin County."
+  },
+  {
+   "slug": "lewisville-ac-repair",
+   "name": "Lewisville",
+   "city": "Lewisville",
+   "county": "Denton",
+   "keyword": "ac repair lewisville tx (720/mo, SD 20)",
+   "summary": "Lewisville in Denton County."
+  },
+  {
+   "slug": "flower-mound-ac-repair",
+   "name": "Flower Mound",
+   "city": "Flower Mound",
+   "county": "Denton",
+   "keyword": "ac repair flower mound tx (880/mo, SD 13)",
+   "summary": "Flower Mound in Denton County."
+  },
+  {
+   "slug": "denton-ac-repair",
+   "name": "Denton",
+   "city": "Denton",
+   "county": "Denton",
+   "keyword": "ac repair denton tx (320/mo, SD 18)",
+   "summary": "Denton in Denton County."
+  },
+  {
+   "slug": "fort-worth-ac-repair",
+   "name": "Fort Worth",
+   "city": "Fort Worth",
+   "county": "Tarrant",
+   "keyword": "ac repair fort worth (1,300/mo, SD 26)",
+   "summary": "Fort Worth in Tarrant County."
+  },
+  {
+   "slug": "arlington-ac-repair",
+   "name": "Arlington",
+   "city": "Arlington",
+   "county": "Tarrant",
+   "keyword": "ac repair arlington tx (320/mo, SD 16)",
+   "summary": "Arlington in Tarrant County."
+  },
+  {
+   "slug": "grand-prairie-ac-repair",
+   "name": "Grand Prairie",
+   "city": "Grand Prairie",
+   "county": "Dallas, Tarrant and Ellis",
+   "keyword": "ac repair grand prairie tx (210/mo, SD 20)",
+   "summary": "Grand Prairie in Dallas, Tarrant and Ellis County."
+  }
+ ]
+}
