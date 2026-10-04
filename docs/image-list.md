@@ -14,7 +14,7 @@ the left side stays calm for the headline.
 Suggested order: the 1920x1080 heroes first (they show on screen straight away), then the
 in-body images page by page.
 
-Total: 20 images.
+Total: 19 images.
 
 ## 1. how-it-works-phone-line-hero.jpg
 
@@ -24,15 +24,7 @@ Total: 20 images.
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A bright, modern Dallas-Fort Worth living room in a newer two-story brick home: light walls, a ceiling fan, a digital wall thermostat, and a big window looking out on a crape myrtle, a wood privacy fence and a flat North Texas sky. A homeowner stands on the right third, seen from behind and slightly to the side, holding a phone to their ear while looking toward the thermostat. The left half of the frame is calm and uncluttered for a headline. Warm natural daylight. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 2. dfw-suburb-street-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /service-areas/
-- Alt text: A sunny Dallas-Fort Worth suburban street of brick two-story homes with air conditioning units along the side yards
-
-Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A bright summer afternoon on a Dallas-Fort Worth suburban street: a row of two-story red and tan brick homes with gray shingle roofs, wood privacy fences, green Bermuda grass lawns and young live oaks along the curb. On the right third, an outdoor air conditioning condenser sits on a pad in a side yard beside one home. Wide flat North Texas sky with a few white clouds. The left side is calm open sky and lawn. Realistic photo, no people, no text, no logos, no house numbers.
-
-## 3. allen-subdivision-row-condensers.jpg
+## 2. allen-subdivision-row-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /allen-ac-repair/
@@ -40,7 +32,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. View along the side yards of three neighboring two-story brick homes built in the late 1990s in Allen, Texas, each with a gray outdoor air conditioning condenser on a concrete pad between the house and a shared cedar privacy fence, the nearest unit on the right third of the frame. Green St. Augustine grass, a young cedar elm, a pale blue sky with a few high clouds, bright midday light. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 4. arlington-1970s-street-condensers.jpg
+## 3. arlington-1970s-street-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /arlington-ac-repair/
@@ -48,7 +40,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A residential street of single-story 1970s Arlington, Texas brick homes with low-pitched roofs and wide eaves, looking along the side yards where two gray outdoor AC condensers sit on concrete pads near stained wood fences on the right third. Mature post oaks and cedar elms, green lawns, a concrete alley drive, bright afternoon sun and a flat clear North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 5. carrollton-ranch-homes-condensers.jpg
+## 4. carrollton-ranch-homes-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /carrollton-ac-repair/
@@ -56,7 +48,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A quiet residential street in Carrollton, Texas, lined with single-story 1970s brick ranch homes in tan and red brick with low-pitched roofs. On the right, the side yard of one home shows a gray outdoor AC condenser on a concrete pad next to a weathered wood privacy fence. Mature live oaks and Bradford pear trees over the sidewalk, green lawns, flat bright North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 6. dallas-restaurant-kitchen-hood.jpg
+## 5. dallas-restaurant-kitchen-hood.jpg
 
 - Size: 1200x800 px
 - Page(s): /commercial-hvac/
@@ -64,7 +56,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A clean, empty commercial restaurant kitchen in a Dallas, Texas strip center: a long stainless steel exhaust hood over a cooking line with a flat-top griddle and fryers, a square ceiling makeup air diffuser nearby, polished steel prep tables, bright overhead lighting and daylight from a back door. Realistic photo, no people, no text, no logos, no brand names, no recognizable faces.
 
-## 7. denton-older-neighborhood-condenser.jpg
+## 6. denton-older-neighborhood-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /denton-ac-repair/
@@ -72,7 +64,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A shaded residential street in an older Denton, Texas neighborhood near downtown, with 1920s and 1940s frame houses in white and pale yellow siding, front porches and pier-and-beam foundations. On the right of the frame, a gray outdoor AC condenser sits on a concrete pad beside one house with copper lines running up the wall into the siding. Mature pecan and oak trees, uneven brick sidewalk, green lawns, bright dappled sunlight and a clear North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 8. flower-mound-wooded-street-condensers.jpg
+## 7. flower-mound-wooded-street-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /flower-mound-ac-repair/
@@ -80,7 +72,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A curving residential street in Flower Mound, Texas, lined with two-story 1990s brick homes with tall hip roofs and stone accents. On the right of the frame, a pair of gray outdoor AC condensers sit on a concrete pad beside a cedar fence. Large native post oaks arch over the street, crape myrtles and boxwood shrubs in the beds, green lawns, bright midday sun and a clear North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 9. fort-worth-older-neighborhood-condenser.jpg
+## 8. fort-worth-older-neighborhood-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /fort-worth-ac-repair/
@@ -88,7 +80,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A small 1940s Fort Worth brick cottage with a gabled roof, white trim and a short concrete porch, raised slightly on a pier and beam foundation with a lattice skirt. A gray outdoor AC condenser sits on a concrete pad beside the house on the right third. A large pecan tree, a chain link side fence, a narrow driveway, bright midday summer sun and a clear blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 10. frisco-two-story-twin-condensers.jpg
+## 9. frisco-two-story-twin-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /frisco-ac-repair/
@@ -96,7 +88,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. Side yard of a two-story Frisco, Texas home built in the 2010s with light brick and tan stone. Two gray outdoor air conditioning condensers of different sizes sit on one concrete pad on the right, each with an insulated copper line set running up the wall, next to a stained cedar privacy fence. Neat mulch bed, green lawn edge, bright midday sun and a wide pale blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 11. dfw-heat-pump-frost-morning.jpg
+## 10. dfw-heat-pump-frost-morning.jpg
 
 - Size: 1200x800 px
 - Page(s): /furnace-repair/
@@ -104,7 +96,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A light gray heat pump outdoor unit on a concrete pad beside a newer two-story red brick home in a Dallas-Fort Worth suburb on a clear, bright winter morning. A thin layer of white frost covers the top fan grille and the dormant Bermuda grass lawn, a wood privacy fence and a bare cedar elm behind, low golden sunrise light, pale blue flat North Texas sky, a faint wisp of steam rising from the unit. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 12. garland-brick-homes-condenser.jpg
+## 11. garland-brick-homes-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /garland-ac-repair/
@@ -112,7 +104,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A tree-lined residential street in Garland, Texas with single-story 1960s and 1970s brick ranch homes, front-facing garages and mature live oaks. On the right third, a gray outdoor air conditioning condenser sits on a concrete pad in a side yard beside a weathered wood privacy fence. Green St. Augustine lawns, bright afternoon sun, pale blue North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 13. grand-prairie-postwar-home-condenser.jpg
+## 12. grand-prairie-postwar-home-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /grand-prairie-ac-repair/
@@ -120,7 +112,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A small single-story 1950s Grand Prairie, Texas home with tan brick on the lower half, painted wood siding above and an attached flat-roof carport, a gray outdoor air conditioning condenser on a small concrete pad beside the house on the right third. A chain link front fence, a mature cedar elm, a neat lawn with a few patches, bright afternoon sun and a flat clear North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 14. dallas-hallway-filter-change.jpg
+## 13. dallas-hallway-filter-change.jpg
 
 - Size: 1200x800 px
 - Page(s): /hvac-tune-up/
@@ -128,7 +120,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A bright hallway in a newer two-story brick Dallas, Texas home with light gray walls and white trim: a hand and forearm (no face) slide a crisp white pleated HVAC air filter into an open white ceiling return air grille, while a used filter coated in gray dust and yellow pollen leans against the wall below. Natural daylight from a nearby window. Realistic photo, no text, no logos, no brand labels, no house numbers, no recognizable faces.
 
-## 15. irving-apartments-condensers.jpg
+## 14. irving-apartments-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /irving-ac-repair/
@@ -136,7 +128,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A two-story garden-style brick and siding apartment building in Irving, Texas with exterior stairs and small balconies. On the right third, a neat row of gray outdoor air conditioning condensers sits on concrete pads along the side of the building behind a low hedge. Young live oaks, mown grass, bright midday sun, flat pale blue North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 16. lewisville-lakeside-homes-condenser.jpg
+## 15. lewisville-lakeside-homes-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /lewisville-ac-repair/
@@ -144,7 +136,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. The side yard of a single-story 1980s brick home in Lewisville, Texas, with a gray outdoor AC condenser on a concrete pad next to a wood privacy fence on the right of the frame. Neighboring brick homes with shingle roofs line the street, mature post oaks and cedar elms overhead, green lawns, and a glimpse of the blue water of Lewisville Lake beyond the rooftops under a bright, flat North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 17. mckinney-historic-home-condenser.jpg
+## 16. mckinney-historic-home-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /mckinney-ac-repair/
@@ -152,7 +144,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. An early 1900s one-story painted wood home with a deep front porch, white trim and tall windows on a tree-lined street near a historic Texas town square. A gray outdoor air conditioning condenser sits on a small concrete pad beside the porch on the right, with a white refrigerant line set running up the clapboard wall. Mature pecan and cedar elm trees, green lawn, bright clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 18. mesquite-street-ranch-homes.jpg
+## 17. mesquite-street-ranch-homes.jpg
 
 - Size: 1200x800 px
 - Page(s): /mesquite-ac-repair/
@@ -160,7 +152,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A residential street in Mesquite, Texas with modest single-story 1970s and 1980s brick ranch homes, front-entry garages, chain link and wood fences, Bradford pear and red oak trees. On the right third, a gray outdoor air conditioning condenser sits in a side yard on a concrete pad. Bright summer afternoon, flat pale blue North Texas sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 19. plano-ranch-home-side-yard-condenser.jpg
+## 18. plano-ranch-home-side-yard-condenser.jpg
 
 - Size: 1200x800 px
 - Page(s): /plano-ac-repair/
@@ -168,7 +160,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on the right third of 
 
 Prompt: Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. Side yard of a 1970s one-story brick ranch home in Plano, Texas with tan brick, a low roofline and aluminum-framed windows. A gray outdoor air conditioning condenser sits on a slightly tilted concrete pad on the right, beside a weathered cedar privacy fence, with a mature Bradford pear tree casting light shade. Green lawn, flower bed with monkey grass, clear bright blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 20. richardson-ranch-street-condensers.jpg
+## 19. richardson-ranch-street-condensers.jpg
 
 - Size: 1200x800 px
 - Page(s): /richardson-ac-repair/
