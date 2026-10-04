@@ -175,7 +175,7 @@
    "city": "McKinney",
    "county": "Collin",
    "keyword": "ac repair mckinney tx (1,000/mo, SD 13)",
-   "summary": "McKinney in Collin County."
+   "summary": "Collin County seat since the 1840s, grown from 21,283 residents in 1990 to 195,308 in 2020."
   },
   {
    "slug": "frisco-ac-repair",
@@ -183,7 +183,7 @@
    "city": "Frisco",
    "county": "Collin and Denton",
    "keyword": "ac repair frisco tx (1,300/mo, SD 26)",
-   "summary": "Frisco in Collin and Denton County."
+   "summary": "Spans Collin and Denton counties, with power from CoServ or Oncor lines and gas from CoServ Gas or Atmos."
   },
   {
    "slug": "plano-ac-repair",
@@ -191,7 +191,7 @@
    "city": "Plano",
    "county": "Collin and Denton",
    "keyword": "ac repair plano tx (1,000/mo, SD 32)",
-   "summary": "Plano in Collin and Denton County."
+   "summary": "Grew from 17,872 people in 1970 to 222,030 by 2000, so many homes now have aging systems."
   },
   {
    "slug": "allen-ac-repair",
@@ -199,7 +199,7 @@
    "city": "Allen",
    "county": "Collin",
    "keyword": "ac repair allen tx (880/mo, SD 18)",
-   "summary": "Allen in Collin County."
+   "summary": "Collin County railroad town named in 1872, grown from 18,309 residents in 1990 to 104,627 in 2020."
   },
   {
    "slug": "richardson-ac-repair",
@@ -207,7 +207,7 @@
    "city": "Richardson",
    "county": "Dallas and Collin",
    "keyword": "ac repair richardson tx (880/mo, SD 16)",
-   "summary": "Richardson in Dallas and Collin County."
+   "summary": "Postwar city split between Dallas and Collin counties, on Oncor lines, where HVAC contractors register with the city."
   },
   {
    "slug": "garland-ac-repair",
@@ -215,7 +215,7 @@
    "city": "Garland",
    "county": "Dallas",
    "keyword": "ac repair garland tx (720/mo, SD 26)",
-   "summary": "Garland in Dallas County."
+   "summary": "Many homes buy power from city-owned Garland Power & Light; the 2015 EF4 tornado struck its southeast side."
   },
   {
    "slug": "mesquite-ac-repair",
@@ -223,7 +223,7 @@
    "city": "Mesquite",
    "county": "Dallas",
    "keyword": "ac repair mesquite tx (720/mo, SD 15)",
-   "summary": "Mesquite in Dallas County."
+   "summary": "The Rodeo Capital of Texas, mostly 1960s to 1980s homes, where contractors register for a free city Professional License before pulling permits."
   },
   {
    "slug": "irving-ac-repair",
@@ -231,7 +231,7 @@
    "city": "Irving",
    "county": "Dallas",
    "keyword": "ac repair irving tx (170/mo, SD 15)",
-   "summary": "Irving in Dallas County."
+   "summary": "Home to Las Colinas and part of DFW Airport, where HVAC work needs its own mechanical permit."
   },
   {
    "slug": "carrollton-ac-repair",
@@ -239,7 +239,7 @@
    "city": "Carrollton",
    "county": "Dallas, Denton and Collin",
    "keyword": "ac repair carrollton tx (480/mo, SD 26)",
-   "summary": "Carrollton in Dallas, Denton and Collin County."
+   "summary": "Spans three counties and nearly tripled in the 1970s, when much of its housing went up."
   },
   {
    "slug": "lewisville-ac-repair",
@@ -247,7 +247,7 @@
    "city": "Lewisville",
    "county": "Denton",
    "keyword": "ac repair lewisville tx (720/mo, SD 20)",
-   "summary": "Lewisville in Denton County."
+   "summary": "Grew up around Lewisville Lake, sits on Oncor or TNMP lines, and annexed Castle Hills in 2021."
   },
   {
    "slug": "flower-mound-ac-repair",
@@ -255,7 +255,7 @@
    "city": "Flower Mound",
    "county": "Denton",
    "keyword": "ac repair flower mound tx (880/mo, SD 13)",
-   "summary": "Flower Mound in Denton County."
+   "summary": "Mostly owner-occupied town between Grapevine and Lewisville lakes, built largely in the 1990s."
   },
   {
    "slug": "denton-ac-repair",
@@ -263,7 +263,7 @@
    "city": "Denton",
    "county": "Denton",
    "keyword": "ac repair denton tx (320/mo, SD 18)",
-   "summary": "Denton in Denton County."
+   "summary": "County seat, home to UNT and TWU, where many homes buy power from city-owned Denton Municipal Electric."
   },
   {
    "slug": "fort-worth-ac-repair",
@@ -271,7 +271,7 @@
    "city": "Fort Worth",
    "county": "Tarrant",
    "keyword": "ac repair fort worth (1,300/mo, SD 26)",
-   "summary": "Fort Worth in Tarrant County."
+   "summary": "A city of over one million where about half the homes predate 1980, beside fast-growing northern subdivisions."
   },
   {
    "slug": "arlington-ac-repair",
@@ -279,7 +279,7 @@
    "city": "Arlington",
    "county": "Tarrant",
    "keyword": "ac repair arlington tx (320/mo, SD 16)",
-   "summary": "Arlington in Tarrant County."
+   "summary": "Tarrant County city that grew from 7,692 people in 1950 to about 402,000, hit by tornadoes in 2000 and 2012."
   },
   {
    "slug": "grand-prairie-ac-repair",
@@ -287,7 +287,7 @@
    "city": "Grand Prairie",
    "county": "Dallas, Tarrant and Ellis",
    "keyword": "ac repair grand prairie tx (210/mo, SD 20)",
-   "summary": "Grand Prairie in Dallas, Tarrant and Ellis County."
+   "summary": "A 26 mile long city spanning Dallas, Tarrant and Ellis counties, from postwar streets to homes near Joe Pool Lake."
   }
  ]
 }

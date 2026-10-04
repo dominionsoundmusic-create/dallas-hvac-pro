@@ -1,0 +1,82 @@
+---
+type: contact
+title: "Contact Dallas Air & Heating | Call (469) 649-7066, 24/7"
+description: "Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call."
+h1: "Contact Dallas Air & Heating"
+crumb: "Contact"
+hero:
+  size: short
+  image: dallas-contact-hero.jpg
+  alt: "Smiling woman on a phone call in a bright living room"
+  lead: "There is one way to reach the line, and it works at any hour: call. An automated assistant answers every time."
+  secondary_label: "How the call works"
+  secondary_href: "/how-it-works/"
+cta_title: "Call now. It is free"
+faqs:
+  - q: "Is there an email address or a contact form?"
+    a: "<p>No. Dallas Air & Heating is phone only. Every call is answered by an automated assistant, which takes your details and transfers you to an independent, locally owned HVAC company that serves your area.</p>"
+  - q: "What hours is the line answered?"
+    a: "<p>All of them. An automated assistant answers (469) 649-7066 24 hours a day, 7 days a week, nights, weekends and holidays included.</p>"
+  - q: "I already hired a company the line connected me with. Who do I contact about the job?"
+    a: "<p>The company itself. It did the work, set the price and billed you, so questions about the job, its warranty or the invoice go to it. If a problem with a Texas air conditioning contractor cannot be settled, the Texas Department of Licensing and Regulation (TDLR) regulates those contractors; its customer service line is 800-803-9202.</p>"
+  - q: "Is there an office I can visit?"
+    a: "<p>No. Dallas Air & Heating is a phone line with no public office, and its address is not published.</p>"
+  - q: "How do I ask what information the line holds about me?"
+    a: "<p>Call (469) 649-7066 and ask. The <a href=\"/privacy-policy.html\">privacy policy</a> explains what is collected on a call and who it is shared with.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Call {{ site.business.phone_display }}</h2>
+      <p class="lead">One number for air conditioning and heating anywhere in Dallas-Fort Worth. Free to call, answered 24/7 by an automated assistant.</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+      <p>The assistant asks whether it is a cooling or heating problem, takes your name, callback number, city or ZIP and a short description, then puts you through to an independent, locally owned heating and air conditioning company that serves your area. If that company cannot pick up, it gets your details to call you back.</p>
+    </div>
+    {{ img('dallas-about-hero.jpg', 'Two-story blue siding home with an outdoor AC condenser beside it on a sunny day', 1344, 768) }}
+  </div>
+  <ul class="facts">
+    <li><strong>Phone</strong><a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a></li>
+    <li><strong>Hours</strong>24 hours a day, 7 days a week, answered by an automated assistant</li>
+    <li><strong>Cost to call</strong>Free. The line never bills you</li>
+    <li><strong>Area</strong>Dallas and the Dallas-Fort Worth metroplex (<a href="/service-areas/">see cities</a>)</li>
+    <li><strong>Email and forms</strong>None. The line is phone only</li>
+  </ul>
+
+  <h2>What to say when you call</h2>
+  <p>You do not need technical words. Short and specific is perfect. Have these ready:</p>
+  <ol class="steps">
+    <li><strong>Cooling or heating.</strong> The first thing the assistant asks.</li>
+    <li><strong>Your name and a callback number.</strong> Give a number you will answer, in case the company has to call you back.</li>
+    <li><strong>Your city or ZIP code.</strong> This is how the call reaches a company that works in your part of DFW.</li>
+    <li><strong>What the system is doing.</strong> For example: "The AC runs but the air is warm, started this afternoon." "Water is dripping through the hallway ceiling below the attic unit." "The furnace clicks but never lights."</li>
+  </ol>
+  <p>If it is easy to see, the brand and age on the label of the outdoor unit or furnace help the company prepare. Before you call, it is also worth checking the thermostat setting and batteries and the air filter; the <a href="/ac-repair/">AC repair page</a> lists the safe checks.</p>
+</section>
+
+<section class="band band--tint">
+  <div class="col">
+    <h2>Gas smell or carbon monoxide alarm? Do this first</h2>
+    <p><strong>Gas smell:</strong> leave the house right away without switching lights or appliances on or off. From a safe distance, call 911 and your gas utility. Atmos Energy, which serves the Dallas and Fort Worth area, lists its 24-hour emergency number as 866-322-8667.</p>
+    <p><strong>Carbon monoxide alarm:</strong> get everyone out of the house and call 911. Carbon monoxide has no color or smell, and a malfunctioning furnace is one possible source. Do not run the furnace again until a qualified technician has inspected it.</p>
+    <p><strong>Heat illness:</strong> if someone in a hot house is confused, faint or very hot to the touch, call 911 before you call about the air conditioner.</p>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Questions about a job that is already done</h2>
+  <p>The line does not do the work or hold the paperwork, so questions about a visit, an invoice or a warranty go to the company you hired. Its name, phone number and, if you asked for it, its TDLR license number should be on the quote or invoice.</p>
+  {{ img('hvac-05-card.jpg', 'Technician checking an indoor air handler and foil duct', 1200, 675) }}
+  {{ m.license_check() }}
+
+  <h2>Your privacy</h2>
+  <p>When you call, the details you give are shared with the independent company your call is transferred to, so it can help you or call you back. The <a href="/privacy-policy.html">privacy policy</a> explains what is collected and how long it is kept, and the <a href="/terms.html">terms of use</a> cover how the line works. To learn exactly what happens on a call, see <a href="/how-it-works/">how the free line works</a>.</p>
+  {{ m.disclosure() }}
+  {{ m.sources([
+    {'label': 'Atmos Energy: Recognizing a gas leak', 'url': 'https://atmosenergy.com/safety/recognizing-leak'},
+    {'label': 'Atmos Energy: Texas service territory (Mid-Tex Division)', 'url': 'https://atmosenergy.com/pipeline-projects/texas-service-territory'},
+    {'label': 'U.S. EPA: What is carbon monoxide?', 'url': 'https://www.epa.gov/indoor-air-quality-iaq/what-carbon-monoxide'},
+    {'label': 'TDLR license search', 'url': 'https://www.tdlr.texas.gov/LicenseSearch/'}
+  ]) }}
+</section>
+{% endblock %}

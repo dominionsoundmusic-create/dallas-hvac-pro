@@ -1,0 +1,107 @@
+---
+type: support
+title: "AC Repair Across DFW: Cities the Free Line Covers"
+description: "AC repair and heating help across Dallas-Fort Worth: Collin, Denton, Dallas and Tarrant county cities, each with its own page. One free line, answered 24/7."
+h1: "AC Repair Across Dallas-Fort Worth"
+crumb: "Service Areas"
+keyword: "ac repair dfw"
+hero:
+  image: dfw-suburb-street-hero.jpg
+  alt: "A sunny Dallas-Fort Worth suburban street of brick two-story homes with air conditioning units along the side yards"
+  desc: "Wide cinematic landscape shot, subject positioned on the right third of the frame, well lit. A bright summer afternoon on a Dallas-Fort Worth suburban street: a row of two-story red and tan brick homes with gray shingle roofs, wood privacy fences, green Bermuda grass lawns and young live oaks along the curb. On the right third, an outdoor air conditioning condenser sits on a pad in a side yard beside one home. Wide flat North Texas sky with a few white clouds. The left side is calm open sky and lawn. Realistic photo, no people, no text, no logos, no house numbers."
+  fallback: hvac-02-hero.jpg
+  fallback_alt: "Two technicians servicing an outdoor air conditioning unit beside a white siding house in evening light"
+  lead: "Dallas and fifteen cities around it, each with its own page about local power companies, permits, housing and weather. One free number, answered any hour, for all of them."
+  secondary_label: "Find your city"
+  secondary_href: "#cities"
+cta_title: "Wherever you are in DFW, the number is the same"
+faqs:
+  - q: "Does Dallas Air &amp; Heating have an office in my city?"
+    a: "<p>No. It is a phone line with no offices. Your call is transferred to an independent, locally owned heating and air conditioning company that serves your area, and that company comes to you. See <a href=\"/how-it-works/\">how it works</a>.</p>"
+  - q: "My city is not listed. Can I still call?"
+    a: "<p>Yes. The city pages cover places where many people search for AC repair, but the line takes calls from across Dallas-Fort Worth. Give the assistant your city or ZIP code so the call goes to a company that works there.</p>"
+  - q: "Why does it matter which city I live in?"
+    a: "<p>Some things change from city to city: who delivers your electricity (Oncor in most cities, but Garland and Denton run their own electric utilities), whether a permit is needed to replace a system and what it costs, and how old most of the houses are. Each city page covers what applies there.</p>"
+  - q: "Is the call free from anywhere in DFW?"
+    a: "<p>Yes. Calling and being connected costs nothing, wherever you are. Any price comes from the HVAC company, which you pay directly. The companies may pay the line a referral fee.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>How coverage works</h2>
+      <p class="lead">The line has no trucks to dispatch and no office in any city. What it does is send your call to an independent company that works where you live.</p>
+      <p>When you call {{ site.business.phone_display }}, the automated assistant asks for your city or ZIP code along with what the system is doing. The call is then transferred to an independent, locally owned heating and air conditioning company that serves your part of the metroplex. If that company cannot pick up, it gets your details to call you back.</p>
+      <p>The cities below have their own pages because many people there search for AC repair. Each page is written about that city: its electric and gas utilities, its permit rules for replacing a system, the age of its homes and the weather events that hit it. If your town is not listed, call anyway.</p>
+    </div>
+    {{ img('dallas-services-hero.jpg', 'Two outdoor air conditioning units beside a red brick home and green lawn', 1344, 768) }}
+  </div>
+</section>
+
+<section class="band band--tint" id="cities">
+  <div class="wide">
+    <h2>Cities with their own page</h2>
+    <p class="section-intro">Grouped by county. A few cities spread across more than one county; they are listed where most people would look for them.</p>
+    <div class="grid-2 stack">
+      <div class="panel">
+        <h3>Collin County</h3>
+        <ul>
+        {% for slug in ['mckinney-ac-repair', 'frisco-ac-repair', 'plano-ac-repair', 'allen-ac-repair'] %}{% set a = area(slug) %}
+          <li><a href="/{{ a.slug }}/">AC repair in {{ a.name }}</a>: {{ a.summary }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Dallas County</h3>
+        <ul>
+        {% for slug in ['richardson-ac-repair', 'garland-ac-repair', 'mesquite-ac-repair', 'irving-ac-repair'] %}{% set a = area(slug) %}
+          <li><a href="/{{ a.slug }}/">AC repair in {{ a.name }}</a>: {{ a.summary }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Denton County</h3>
+        <ul>
+        {% for slug in ['carrollton-ac-repair', 'lewisville-ac-repair', 'flower-mound-ac-repair', 'denton-ac-repair'] %}{% set a = area(slug) %}
+          <li><a href="/{{ a.slug }}/">AC repair in {{ a.name }}</a>: {{ a.summary }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Tarrant County and the mid-cities</h3>
+        <ul>
+        {% for slug in ['fort-worth-ac-repair', 'arlington-ac-repair', 'grand-prairie-ac-repair'] %}{% set a = area(slug) %}
+          <li><a href="/{{ a.slug }}/">AC repair in {{ a.name }}</a>: {{ a.summary }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>What changes from city to city</h2>
+  <div class="split">
+    <div>
+      <h3>Who delivers your power</h3>
+      <p>Across most of the metroplex, Oncor owns the poles and wires and you buy electricity from a retail provider you choose, so a power outage is reported to Oncor, not to the company on your bill. Some cities are different. Garland Power &amp; Light serves much of Garland, Denton Municipal Electric serves much of Denton, and parts of Collin and Denton counties are on cooperative lines such as CoServ. Your bill tells you which one is yours, and it matters when you are deciding whether the AC broke or the power did.</p>
+      <h3>Permits for a replacement</h3>
+      <p>Replacing a system usually involves the city's building inspection office, and the rules and fees differ. Several cities also require HVAC contractors to register locally on top of the state license. The city pages say what each city's own site confirms; when in doubt, ask the company whether it will pull the permit.</p>
+      <h3>How old the houses are</h3>
+      <p>Older close-in suburbs have many homes from the 1950s to the 1970s, with ductwork and electrical service that newer equipment may outgrow. Fast-growing cities to the north have more homes from the 1990s onward. Age shapes what usually breaks and whether repair or replacement makes sense.</p>
+    </div>
+    {{ img('dallas-about-attic.jpg', 'An attic air handler with flexible ducts running across pink insulation', 1200, 686) }}
+  </div>
+  {{ m.license_check() }}
+  {{ m.how_it_works_short() }}
+  {{ m.disclosure() }}
+  {{ m.related(['ac-repair', 'emergency-ac-repair', 'furnace-repair', 'guide:hvac-company'], 'Start with the service you need') }}
+  {{ m.sources([
+    {'label': 'ElectricityPlans: Oncor, the transmission and distribution utility for Dallas and Fort Worth', 'url': 'https://electricityplans.com/texas/utilities/oncor/'},
+    {'label': 'CoServ: service area', 'url': 'https://www.coserv.com/?p=179'},
+    {'label': 'Base Power: electricity in Garland, TX (Garland Power & Light and Oncor areas)', 'url': 'https://www.basepowercompany.com/electricity-rates/garland-tx'},
+    {'label': 'City of Denton: HVAC and furnaces permit information', 'url': 'https://www.cityofdenton.com/655/HVAC-Furnaces'},
+    {'label': 'Texas Department of Licensing and Regulation: air conditioning and refrigeration', 'url': 'https://www.tdlr.texas.gov/acr/'}
+  ]) }}
+</section>
+{% endblock %}

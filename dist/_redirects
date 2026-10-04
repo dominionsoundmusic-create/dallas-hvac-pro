@@ -1,0 +1,42 @@
+# Dallas Air & Heating redirects (dallasairandheating.com)
+
+# Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
+/ac-installation/*  /ac-installation/  301
+/ac-repair/*  /ac-repair/  301
+/emergency-ac-repair/*  /emergency-ac-repair/  301
+/furnace-repair/*  /furnace-repair/  301
+/hvac-tune-up/*  /hvac-tune-up/  301
+
+# Sep 24 2026 - duplicate stub retired
+/air-conditioning-repair/*  /ac-repair/  301
+/air-conditioning-repair/  /ac-repair/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/why-your-ac-is-running-but-not-cooling-1785707578569.html  /ac-repair/  301
+/blog/why-your-ac-is-running-but-not-cooling-1785707578569  /ac-repair/  301
+/blog/heat-pump-vs-traditional-ac-which-is-better-1785851526079.html  /ac-installation/  301
+/blog/heat-pump-vs-traditional-ac-which-is-better-1785851526079  /ac-installation/  301
+/blog/how-annual-hvac-maintenance-cuts-your-power-bill-1786970531508.html  /hvac-tune-up/  301
+/blog/how-annual-hvac-maintenance-cuts-your-power-bill-1786970531508  /hvac-tune-up/  301
+/blog/how-to-size-an-air-conditioner-for-your-home-1786192266366.html  /ac-installation/  301
+/blog/how-to-size-an-air-conditioner-for-your-home-1786192266366  /ac-installation/  301
+/blog/what-seer-rating-means-and-which-one-you-need-1786278793738.html  /ac-installation/  301
+/blog/what-seer-rating-means-and-which-one-you-need-1786278793738  /ac-installation/  301
+/blog/how-often-should-you-replace-your-air-filter-1786023985134.html  /hvac-tune-up/  301
+/blog/how-often-should-you-replace-your-air-filter-1786023985134  /hvac-tune-up/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1785937657542.html  /emergency-ac-repair/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1785937657542  /emergency-ac-repair/  301
+/blog/how-much-does-ac-replacement-cost-in-dallas-1786366148758.html  /ac-installation/  301
+/blog/how-much-does-ac-replacement-cost-in-dallas-1786366148758  /ac-installation/  301
+/blog/why-ac-units-fail-in-dallas-summer-heat-1786452479487.html  /ac-repair/  301
+/blog/why-ac-units-fail-in-dallas-summer-heat-1786452479487  /ac-repair/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1786106719726.html  /emergency-ac-repair/  301
+/blog/emergency-ac-repair-what-to-do-while-you-wait-1786106719726  /emergency-ac-repair/  301
+/blog/*  /  301
+/blog  /  301
+
+# Oct 3 2026 - Playbook 2.0 rebuild: the site is phone only, so the form thank-you pages are retired.
+/contact/thanks/  /contact/  301
+/contact/thanks  /contact/  301
+/free-ac-guide/thanks/  /free-ac-guide/  301
+/free-ac-guide/thanks  /free-ac-guide/  301
