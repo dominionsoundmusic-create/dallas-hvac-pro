@@ -425,3 +425,10 @@ body > .skiptranslate { display: none !important; }
 .panel { border: 2px solid var(--tint-2); border-top: 5px solid var(--blue-break); }
 .card { border: 2px solid var(--tint-2); }
 .panel, .card { overflow-wrap: break-word; }
+
+/* Oct 10 2026: social icons in the top bar (right side on wide screens, under the quote on phones) */
+.quote-bar__social { display: flex; justify-content: center; gap: 6px; margin-top: 4px; }
+.quote-bar__social a { display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center; color: inherit; border-radius: 50%; }
+.quote-bar__social a:hover { color: #ffffff; }
+.quote-bar__social svg { width: 17px; height: 17px; }
+@media (min-width: 1100px) { .quote-bar__social { position: absolute; right: var(--gutter); top: 50%; transform: translateY(-50%); margin-top: 0; } }
