@@ -113,8 +113,7 @@
 /blog/*  /  301
 /blog  /  301
 
-# Oct 3 2026 - Playbook 2.0 rebuild: the site is phone only, so the form thank-you pages are retired.
-/contact/thanks/  /contact/  301
-/contact/thanks  /contact/  301
+# Oct 3 2026 - Playbook 2.0 rebuild: the free guide is a one-click PDF, so its form thank-you page is retired.
+# (Oct 29 2026: /contact/thanks/ is a real page again, the thank-you page for the contact request form.)
 /free-ac-guide/thanks/  /free-ac-guide/  301
 /free-ac-guide/thanks  /free-ac-guide/  301

@@ -1,0 +1,17 @@
+---
+type: thanks
+title: "Request Received | Dallas Air & Heating"
+description: "Thank you. Your request reached Dallas Air & Heating and is being passed to an independent local DFW heating and air conditioning company, which will call you back."
+h1: "Thank You, Your Request Was Received"
+noindex: true
+lead: "An independent, locally owned heating and air conditioning company that serves your area should call you back at the number you gave."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <p>Your details are being passed to a company that works in your part of Dallas-Fort Worth. That company will call you, talk through what is going on and give you its own price. You are never required to hire it.</p>
+  <p><strong>Is it urgent?</strong> If the air conditioning or heat is out right now, you do not have to wait. Call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> any time, day or night, and the automated assistant can put you straight through.</p>
+  <p>If you smell gas, leave the house and call 911 and your gas utility from outside. If a carbon monoxide alarm goes off, get everyone out and call 911.</p>
+  <p><a class="btn btn--orange" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a> <a class="btn btn--outline" href="/">Back to the home page</a></p>
+</section>
+{% endblock %}

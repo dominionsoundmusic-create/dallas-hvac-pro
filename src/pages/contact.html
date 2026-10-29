@@ -1,20 +1,20 @@
 ---
 type: contact
 title: "Contact Dallas Air & Heating | Call (469) 649-7066, 24/7"
-description: "Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call."
+description: "Call Dallas Air & Heating at (469) 649-7066, answered 24/7, or send the short request form and an independent local DFW HVAC company calls you back."
 h1: "Contact Dallas Air & Heating"
 crumb: "Contact"
 hero:
   size: short
   image: dallas-contact-hero.jpg
   alt: "Smiling woman on a phone call in a bright living room"
-  lead: "There is one way to reach the line, and it works at any hour: call. An automated assistant answers every time."
+  lead: "Call at any hour and an automated assistant answers every time. Or send the short form below and an independent local company calls you back."
   secondary_label: "How the call works"
   secondary_href: "/how-it-works/"
 cta_title: "Call now. It is free"
 faqs:
-  - q: "Is there an email address or a contact form?"
-    a: "<p>No. Dallas Air & Heating is phone only. Every call is answered by an automated assistant, which takes your details and transfers you to an independent, locally owned HVAC company that serves your area.</p>"
+  - q: "Can I send a request online instead of calling?"
+    a: "<p>Yes. Fill in the short form on this page with your name, phone number, city or ZIP and what you need. Your request is passed to an independent, locally owned HVAC company that serves your area, and that company calls you back. If the AC or heat is out right now, calling is faster: the assistant can put you straight through. There is no email address for the line.</p>"
   - q: "What hours is the line answered?"
     a: "<p>All of them. An automated assistant answers (469) 649-7066 24 hours a day, 7 days a week, nights, weekends and holidays included.</p>"
   - q: "I already hired a company the line connected me with. Who do I contact about the job?"
@@ -40,8 +40,53 @@ faqs:
     <li><strong>Hours</strong>24 hours a day, 7 days a week, answered by an automated assistant</li>
     <li><strong>Cost to call</strong>Free. The line never bills you</li>
     <li><strong>Area</strong>Dallas and the Dallas-Fort Worth metroplex (<a href="/service-areas/">see cities</a>)</li>
-    <li><strong>Email and forms</strong>None. The line is phone only</li>
+    <li><strong>Online request</strong><a href="#request">Send the short form</a> and a local company calls you back</li>
   </ul>
+
+  <div class="request" id="request">
+    <h2>Or send a short request</h2>
+    <p>Prefer not to call right now? Fill this in and an independent, locally owned heating and air conditioning company that serves your area will call you back. For a system that is out right now, calling {{ site.business.phone_display }} is the fastest way through.</p>
+    <form class="request__form" name="dallas-hvac-contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="dallas-hvac-contact">
+      <p hidden><label>Leave blank <input name="bot-field"></label></p>
+      <div class="request__row">
+        <label for="rq-name">Your name</label>
+        <input id="rq-name" type="text" name="name" autocomplete="name" required>
+      </div>
+      <div class="request__row">
+        <label for="rq-phone">Phone</label>
+        <input id="rq-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required>
+      </div>
+      <div class="request__row">
+        <label for="rq-email">Email <span class="request__opt">(optional)</span></label>
+        <input id="rq-email" type="email" name="email" autocomplete="email">
+      </div>
+      <div class="request__row">
+        <label for="rq-city">City or ZIP code</label>
+        <input id="rq-city" type="text" name="city" autocomplete="postal-code" required>
+      </div>
+      <div class="request__row request__row--full">
+        <label for="rq-need">What do you need?</label>
+        <select id="rq-need" name="need" required>
+          <option value="">Choose one</option>
+          <option>AC repair (not cooling, leaking or noisy)</option>
+          <option>Heating or furnace repair</option>
+          <option>New system or replacement quote</option>
+          <option>Tune-up or maintenance</option>
+          <option>Second opinion on a quote</option>
+          <option>Just a question</option>
+        </select>
+      </div>
+      <div class="request__row request__row--full">
+        <label for="rq-message">Anything else the company should know? <span class="request__opt">(optional)</span></label>
+        <textarea id="rq-message" name="message" rows="4"></textarea>
+      </div>
+      <div class="request__row request__row--full">
+        <button class="btn btn--orange btn--big" type="submit">Send my request</button>
+      </div>
+    </form>
+    <p class="request__note">Your details go only to the independent local company that will call you back. They are not sold. See the <a href="/privacy-policy.html">privacy policy</a>.</p>
+  </div>
 
   <h2>What to say when you call</h2>
   <p>You do not need technical words. Short and specific is perfect. Have these ready:</p>
@@ -70,7 +115,7 @@ faqs:
   {{ m.license_check() }}
 
   <h2>Your privacy</h2>
-  <p>When you call, the details you give are shared with the independent company your call is transferred to, so it can help you or call you back. The <a href="/privacy-policy.html">privacy policy</a> explains what is collected and how long it is kept, and the <a href="/terms.html">terms of use</a> cover how the line works. To learn exactly what happens on a call, see <a href="/how-it-works/">how the free line works</a>.</p>
+  <p>When you call or send the form, the details you give are shared with the independent company that will help you or call you back. The <a href="/privacy-policy.html">privacy policy</a> explains what is collected and how long it is kept, and the <a href="/terms.html">terms of use</a> cover how the line works. To learn exactly what happens on a call, see <a href="/how-it-works/">how the free line works</a>.</p>
   {{ m.disclosure() }}
   {{ m.sources([
     {'label': 'Atmos Energy: Recognizing a gas leak', 'url': 'https://atmosenergy.com/safety/recognizing-leak'},

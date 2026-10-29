@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact Dallas Air & Heating | Call (469) 649-7066, 24/7</title>
-<meta name="description" content="Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call.">
+<meta name="description" content="Call Dallas Air & Heating at (469) 649-7066, answered 24/7, or send the short request form and an independent local DFW HVAC company calls you back.">
 <link rel="canonical" href="https://dallasairandheating.com/contact/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dallas Air & Heating">
 <meta property="og:title" content="Contact Dallas Air & Heating | Call (469) 649-7066, 24/7">
-<meta property="og:description" content="Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call.">
+<meta property="og:description" content="Call Dallas Air & Heating at (469) 649-7066, answered 24/7, or send the short request form and an independent local DFW HVAC company calls you back.">
 <meta property="og:url" content="https://dallasairandheating.com/contact/">
 <meta property="og:image" content="https://dallasairandheating.com/images/dallas-contact-hero.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Contact Dallas Air & Heating | Call (469) 649-7066, 24/7">
-<meta name="twitter:description" content="Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call.">
+<meta name="twitter:description" content="Call Dallas Air & Heating at (469) 649-7066, answered 24/7, or send the short request form and an independent local DFW HVAC company calls you back.">
 <meta name="twitter:image" content="https://dallasairandheating.com/images/dallas-contact-hero.jpg">
 <meta name="theme-color" content="#0c1f2e">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -136,7 +136,7 @@
    "@id": "https://dallasairandheating.com/contact/#webpage",
    "url": "https://dallasairandheating.com/contact/",
    "name": "Contact Dallas Air & Heating | Call (469) 649-7066, 24/7",
-   "description": "Reach Dallas Air & Heating by phone at (469) 649-7066, answered 24/7 by an automated assistant. Phone only: no forms, no email. What to say when you call.",
+   "description": "Call Dallas Air & Heating at (469) 649-7066, answered 24/7, or send the short request form and an independent local DFW HVAC company calls you back.",
    "isPartOf": {
     "@type": "WebSite",
     "@id": "https://dallasairandheating.com/#website",
@@ -179,10 +179,10 @@
    "mainEntity": [
     {
      "@type": "Question",
-     "name": "Is there an email address or a contact form?",
+     "name": "Can I send a request online instead of calling?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "No. Dallas Air & Heating is phone only. Every call is answered by an automated assistant, which takes your details and transfers you to an independent, locally owned HVAC company that serves your area."
+      "text": "Yes. Fill in the short form on this page with your name, phone number, city or ZIP and what you need. Your request is passed to an independent, locally owned HVAC company that serves your area, and that company calls you back. If the AC or heat is out right now, calling is faster: the assistant can put you straight through. There is no email address for the line."
      }
     },
     {
@@ -301,7 +301,7 @@
 <picture><source type="image/webp" srcset="/images/dallas-contact-hero-480.webp 480w, /images/dallas-contact-hero-800.webp 800w, /images/dallas-contact-hero-1200.webp 1200w, /images/dallas-contact-hero-1344.webp 1344w" sizes="100vw"><img src="/images/dallas-contact-hero.jpg" alt="Smiling woman on a phone call in a bright living room" width="1344" height="768" class="hero__img" fetchpriority="high" decoding="async"></picture>  <div class="hero__fade" aria-hidden="true"></div>
   <div class="hero__inner">
     <h1>Contact Dallas Air & Heating</h1>
-    <p class="hero__lead">There is one way to reach the line, and it works at any hour: call. An automated assistant answers every time.</p>
+    <p class="hero__lead">Call at any hour and an automated assistant answers every time. Or send the short form below and an independent local company calls you back.</p>
     <div class="btn-row">
       <a class="btn btn--orange" href="tel:+14696497066">Call (469) 649-7066</a>
       <a class="btn btn--ghost" href="/how-it-works/">How the call works</a>
@@ -327,8 +327,53 @@
     <li><strong>Hours</strong>24 hours a day, 7 days a week, answered by an automated assistant</li>
     <li><strong>Cost to call</strong>Free. The line never bills you</li>
     <li><strong>Area</strong>Dallas and the Dallas-Fort Worth metroplex (<a href="/service-areas/">see cities</a>)</li>
-    <li><strong>Email and forms</strong>None. The line is phone only</li>
+    <li><strong>Online request</strong><a href="#request">Send the short form</a> and a local company calls you back</li>
   </ul>
+
+  <div class="request" id="request">
+    <h2>Or send a short request</h2>
+    <p>Prefer not to call right now? Fill this in and an independent, locally owned heating and air conditioning company that serves your area will call you back. For a system that is out right now, calling (469) 649-7066 is the fastest way through.</p>
+    <form class="request__form" name="dallas-hvac-contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="dallas-hvac-contact">
+      <p hidden><label>Leave blank <input name="bot-field"></label></p>
+      <div class="request__row">
+        <label for="rq-name">Your name</label>
+        <input id="rq-name" type="text" name="name" autocomplete="name" required>
+      </div>
+      <div class="request__row">
+        <label for="rq-phone">Phone</label>
+        <input id="rq-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required>
+      </div>
+      <div class="request__row">
+        <label for="rq-email">Email <span class="request__opt">(optional)</span></label>
+        <input id="rq-email" type="email" name="email" autocomplete="email">
+      </div>
+      <div class="request__row">
+        <label for="rq-city">City or ZIP code</label>
+        <input id="rq-city" type="text" name="city" autocomplete="postal-code" required>
+      </div>
+      <div class="request__row request__row--full">
+        <label for="rq-need">What do you need?</label>
+        <select id="rq-need" name="need" required>
+          <option value="">Choose one</option>
+          <option>AC repair (not cooling, leaking or noisy)</option>
+          <option>Heating or furnace repair</option>
+          <option>New system or replacement quote</option>
+          <option>Tune-up or maintenance</option>
+          <option>Second opinion on a quote</option>
+          <option>Just a question</option>
+        </select>
+      </div>
+      <div class="request__row request__row--full">
+        <label for="rq-message">Anything else the company should know? <span class="request__opt">(optional)</span></label>
+        <textarea id="rq-message" name="message" rows="4"></textarea>
+      </div>
+      <div class="request__row request__row--full">
+        <button class="btn btn--orange btn--big" type="submit">Send my request</button>
+      </div>
+    </form>
+    <p class="request__note">Your details go only to the independent local company that will call you back. They are not sold. See the <a href="/privacy-policy.html">privacy policy</a>.</p>
+  </div>
 
   <h2>What to say when you call</h2>
   <p>You do not need technical words. Short and specific is perfect. Have these ready:</p>
@@ -359,7 +404,7 @@
 </div>
 
   <h2>Your privacy</h2>
-  <p>When you call, the details you give are shared with the independent company your call is transferred to, so it can help you or call you back. The <a href="/privacy-policy.html">privacy policy</a> explains what is collected and how long it is kept, and the <a href="/terms.html">terms of use</a> cover how the line works. To learn exactly what happens on a call, see <a href="/how-it-works/">how the free line works</a>.</p>
+  <p>When you call or send the form, the details you give are shared with the independent company that will help you or call you back. The <a href="/privacy-policy.html">privacy policy</a> explains what is collected and how long it is kept, and the <a href="/terms.html">terms of use</a> cover how the line works. To learn exactly what happens on a call, see <a href="/how-it-works/">how the free line works</a>.</p>
   <div class="note">
   <p><strong>How this line works:</strong> Dallas Air & Heating is a free phone line, not an HVAC company. It answers your call and connects you with an independent local heating and air conditioning company, which inspects, quotes and does the work, and which you pay directly. The line holds no HVAC license and does not repair, install or schedule anything itself. Those companies may pay Dallas Air & Heating a referral fee. You never pay the line. <a href="/how-it-works/">How it works</a>.</p>
 </div>
@@ -379,8 +424,8 @@
     <h2 id="faq-title">Common questions</h2>
     <div class="faq__list">
       <details class="faq__item" open>
-        <summary><h3>Is there an email address or a contact form?</h3></summary>
-        <div class="faq__a"><p>No. Dallas Air & Heating is phone only. Every call is answered by an automated assistant, which takes your details and transfers you to an independent, locally owned HVAC company that serves your area.</p></div>
+        <summary><h3>Can I send a request online instead of calling?</h3></summary>
+        <div class="faq__a"><p>Yes. Fill in the short form on this page with your name, phone number, city or ZIP and what you need. Your request is passed to an independent, locally owned HVAC company that serves your area, and that company calls you back. If the AC or heat is out right now, calling is faster: the assistant can put you straight through. There is no email address for the line.</p></div>
       </details>
       <details class="faq__item">
         <summary><h3>What hours is the line answered?</h3></summary>

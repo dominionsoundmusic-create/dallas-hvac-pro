@@ -3,7 +3,7 @@
 
 Checks every built page for the hard rules in CLAUDE.md (banned phrases that imply Dallas Air &
 Heating does the work or holds a license, invented trust claims, em dashes, places outside
-Dallas-Fort Worth, DIY refrigerant/electrical/gas advice, forms, eyebrow labels, the exact
+Dallas-Fort Worth, DIY refrigerant/electrical/gas advice, forms outside /contact/, eyebrow labels, the exact
 top-bar quote, the referral disclosure in the footer), SEO basics (one H1, unique title and
 description, canonical, JSON-LD validity, FAQ count) and link/image integrity.
 
@@ -48,6 +48,10 @@ OUTSIDE = ["Houston", "San Antonio", "Austin, TX", "Austin, Texas", "Austin Ener
            "Lubbock", "Amarillo", "Katy", "Sugar Land", "Pearland", "The Woodlands", "Round Rock", "Cedar Park",
            "Pflugerville", "Georgetown, TX", "Conroe", "New Braunfels", "Spring, TX", "Cypress, TX", "Tyler, TX",
            "Waco", "Killeen", "Galveston", "Beaumont", "Orlando", "Florida"]
+
+
+# Pages that need no hero, in-body images or FAQ block (legal pages, 404, form thank-you page).
+EXEMPT = ("/404.html", "/privacy-policy.html", "/terms.html", "/contact/thanks/")
 
 
 class PageParser(HTMLParser):
@@ -181,8 +185,8 @@ def main():
         for mt in re.finditer(r"[^.]*\byourself\b[^.]*\.", visible, re.I):
             if re.search(r"capacitor|refrigerant|freon|gas valve|gas line|breaker panel|wiring|contactor|pilot", mt.group(0), re.I):
                 warn(f"check this is not DIY advice: {mt.group(0).strip()[:160]}")
-        if "<form" in raw:
-            err("form found (site is phone only)")
+        if "<form" in raw and url != "/contact/":
+            err("form found (the only form on the site is the request form on /contact/)")
         if re.search(r'class="[^"]*(?:eyebrow|kicker|overline|badge)', raw):
             err("eyebrow/badge label found")
         if QUOTE not in raw.replace("&#39;", "'").replace("&rsquo;", "'"):
@@ -221,7 +225,7 @@ def main():
         pending = re.findall(r"<!-- image pending .*?-->(<figure)?", raw)
         figs = raw.count('<figure class="fig') + sum(1 for g in pending if not g)
         has_hero = '<section class="hero ' in raw
-        if url not in ("/404.html", "/privacy-policy.html", "/terms.html") and (not has_hero or figs < 2):
+        if url not in EXEMPT and (not has_hero or figs < 2):
             err(f"needs a hero and at least two in-body images (hero={has_hero}, body images={figs})")
         for k in ("og:title", "og:description", "og:url", "og:image"):
             if not p.meta.get(k):
@@ -248,7 +252,7 @@ def main():
         if visible_faq != faq_count:
             err(f"visible FAQ items ({visible_faq}) != FAQPage entries ({faq_count})")
         max_faq = 30 if url == "/faq/" else 6
-        if url not in ("/404.html", "/privacy-policy.html", "/terms.html"):
+        if url not in EXEMPT:
             if not (3 <= visible_faq <= max_faq):
                 err(f"page needs 3 to 6 common questions, has {visible_faq}")
             if 'id="faq-title">Common questions<' not in raw:

@@ -74,12 +74,14 @@ FOOTER OF EVERY PAGE: the referral disclosure, "© 2026 Dominion Digital Group. 
 LANGUAGE: EN / ES toggle in the header (the Sep 25 2026 site already had an Espanol button).
 
 5. CALLS TO ACTION & WEBSITE INTEGRATIONS
-MAIN CALL TO ACTION: Call (469) 649-7066. THE SITE IS PHONE ONLY (same decision as the Austin and
-  Orlando rebuilds, Oct 1 to 3 2026).
-SECONDARY CALL TO ACTION: a real page (How it works, a guide, a section on the page). Never a form.
-CONTACT FORM / SCHEDULING / REVIEW WIDGET / MAP: none. The old Netlify forms "dallas-hvac-contact"
-  and "free-ac-guide" are retired; the free refrigerant guide becomes a one-click PDF download, as on
-  austinacservice.com.
+MAIN CALL TO ACTION: Call (469) 649-7066. (Oct 3 2026 the site was phone only; on Oct 29 2026
+  Maurice added a short request form on the contact page as an extra way in, not a replacement.)
+SECONDARY CALL TO ACTION: a real page (How it works, a guide, a section on the page), or the contact
+  page request form.
+CONTACT FORM: Netlify form "dallas-hvac-contact" on /contact/ only (fields name, phone, email, city,
+  need, message), thank-you page /contact/thanks/. netlify/functions/submission-created.mjs texts
+  Maurice each verified submission. SCHEDULING / REVIEW WIDGET / MAP: none. The "free-ac-guide" form
+  stays retired; the free refrigerant guide is a one-click PDF download, as on austinacservice.com.
 ANALYTICS / TRACKING IDS: UNKNOWN (Search Console is set up under localsearchit@gmail.com; no GA4 id)
 
 6. SOCIAL & ONLINE PROFILES
